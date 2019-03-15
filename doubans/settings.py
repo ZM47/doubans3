@@ -139,7 +139,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # 静态资源配置
-STATICFILES_DIRS=[os.path.join(BASE_DIR,"static")]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # 配置上传的文件路径
 MEDIA_ROOT = os.path.join(BASE_DIR,"static/upload")
 
